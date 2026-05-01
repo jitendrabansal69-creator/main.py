@@ -61,3 +61,4 @@ if __name__ == "__main__":
     # कोड को 24/7 चालू रखने के लिए
     while True:
         time.sleep(3600)
+        # restart
