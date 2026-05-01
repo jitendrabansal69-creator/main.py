@@ -1,4 +1,4 @@
 smartapi-python
-pandas
+logzero
 pyotp
 requests
