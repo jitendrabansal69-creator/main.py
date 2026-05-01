@@ -9,7 +9,7 @@ CLIENT_ID     = "J109737"
 PASSWORD      = "4966"
 TOTP_SECRET   = "HDVHUMXPPC2FTJOSHKSK6CO5AA"
 BOT_TOKEN     = "8665264906:AAFJd6a08qPbw0RvLQWNL7YF6624PcSgN-w"
-CHAT_ID       = "8748890897"
+ADMIN_ID       = "8748890897"
 
 def p(msg):
     """मैसेज को तुरंत स्क्रीन पर दिखाने के लिए"""
@@ -18,7 +18,7 @@ def p(msg):
 def send_telegram_message(message):
     p("👉 Telegram पर मैसेज भेजा जा रहा है...")
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": CHAT_ID, "text": message, "parse_mode": "Markdown"}
+    payload = {"chat_id": ADMIN_ID, "text": message, "parse_mode": "Markdown"}
     try:
         response = requests.post(url, json=payload, timeout=10)
         p(f"✅ Telegram का जवाब: {response.status_code}")
