@@ -8,7 +8,7 @@ API_KEY       = "x9Zs2hWZ"
 CLIENT_ID     = "J109737"
 PASSWORD      = "4966"
 TOTP_SECRET   = "HDVHUMXPPC2FTJOSHKSK6CO5AA"
-BOT_TOKEN     = "8665264906:AAFJd6a08qPbw0RvLQWNL7YF6624PcSgN-w"
+BOT_TOKEN     = "8665264906:AAFJD6a08qPbw0RvLQWNL7YF6624PcSgN-w"
 ADMIN_ID       = "8748890897"
 
 def p(msg):
@@ -61,4 +61,3 @@ if __name__ == "__main__":
     # कोड को 24/7 चालू रखने के लिए
     while True:
         time.sleep(3600)
-        # restart
