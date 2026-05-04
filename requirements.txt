@@ -4,3 +4,5 @@ pyotp
 requests
 websocket
 pytz
+pandas
+pandas_ta
