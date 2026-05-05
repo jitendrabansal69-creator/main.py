@@ -1,9 +1,10 @@
-flask
-flask-cors
-pandas
-numpy
+logzero
+websocket-client
 smartapi-python
 pyotp
 requests
+pandas
+numpy
+flask
+flask-cors
 gtts
-logzero
