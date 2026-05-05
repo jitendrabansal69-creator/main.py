@@ -140,4 +140,4 @@ if __name__ == "__main__":
         if 915 <= curr_time < 1530:
             start_bot()
         else:
-            time.sleep(60)
+            time.sleep(90)
