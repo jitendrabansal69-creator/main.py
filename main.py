@@ -1,3 +1,16 @@
+# IP पता करने के लिए छोटा सा कोड
+import requests
+def tell_me_my_ip():
+    try:
+        current_ip = requests.get('https://api.ipify.org').text
+        print(f"🦁 SHERA SERVER IP: {current_ip}")
+        # टेलीग्राम पर भी भेज दें
+        url = f"https://api.telegram.org/bot8352232623:AAFI5uYY2Q3Bt3T4p20eT2EWBLkf3pDOvFE/sendMessage"
+        requests.post(url, data={"chat_id": "8748890897", "text": f"📍 SHERA SERVER IP: {current_ip}"})
+    except:
+        print("IP नहीं मिला")
+
+tell_me_my_ip() # कोड शुरू होते ही IP बताएगा
 # -*- coding: utf-8 -*-
 """
 LUCKNOW SHERA — SERVER VERSION (V8)
